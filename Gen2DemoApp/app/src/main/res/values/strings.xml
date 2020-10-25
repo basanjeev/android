@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Gen2DemoApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">W3C Gen2 Demo</string>
+    <string name="nav_header_subtitle">automotive@w3c.org</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">W3C REST API</string>
+    <string name="menu_gallery">W3C WebSock</string>
+    <string name="menu_slideshow">Settings</string>
+
+    <string name="home_second">Home Second</string>
+</resources>

@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="net.redirectme.apps.MainActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/settings_s"/>
+    
+	<item android:id="@+id/action_search"
+      android:icon="@drawable/lens"
+      android:title="@string/search_s"
+      android:showAsAction="always"
+      android:actionViewClass="android.widget.SearchView"/>
+
+</menu>

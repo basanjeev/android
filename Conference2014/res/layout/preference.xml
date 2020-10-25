@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@drawable/bg">
+    <PreferenceCategory 
+        android:title="@string/session_alert"
+        android:key="pref_key_session_alert">
+        <CheckBoxPreference
+            android:key="pref_key_start_alert"
+            android:summary="@string/session_start_alert_summary"
+            android:title="@string/session_start_alert"
+            android:defaultValue="true"/>
+        <CheckBoxPreference
+            android:key="pref_key_start_alert"
+            android:summary="@string/session_close_alert_summary"
+            android:title="@string/session_close_alert"
+            android:defaultValue="true"/>
+        
+    </PreferenceCategory>
+    <PreferenceCategory 
+        android:title="@string/gear_sync"
+        android:key="pref_key_gear_sync">
+        <CheckBoxPreference
+            android:key="pref_key_gear_sync_alert"
+            android:summary="@string/gear_sync_alert_summary"
+            android:title="@string/gear_sync_alert"
+            android:defaultValue="true"/>
+    </PreferenceCategory>
+</PreferenceScreen>

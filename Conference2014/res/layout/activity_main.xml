@@ -1,0 +1,126 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="fill_horizontal"
+    android:background="@drawable/bg"
+    android:stretchColumns="*" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="fill"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/schedule"
+            android:layout_column="0"
+            android:background="@drawable/bg"
+            android:contentDescription="@string/schedule_s"
+            android:onClick="launchCompleteSchedule"
+            android:src="@drawable/schedule_selector" />
+
+        <ImageButton
+            android:id="@+id/myschedule"
+            android:background="@drawable/bg"
+            android:contentDescription="@string/myschedule_s"
+            android:onClick="launchMySchedule"
+            android:src="@drawable/myschedule_selector" />
+
+        <ImageButton
+            android:id="@+id/current"
+            android:background="@drawable/bg"
+            android:contentDescription="@string/current_s"
+            android:onClick="launchCurrent"
+            android:src="@drawable/cursession_selector" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/schedule_s" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/myschedule_s" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/current_s" />
+
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="fill"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/running"
+            android:layout_column="0"
+            android:background="@drawable/bg"
+            android:contentDescription="@string/attendees_s"
+            android:src="@drawable/attendees_selector" />
+
+        <ImageButton
+            android:id="@+id/chat"
+            android:background="@drawable/bg"
+            android:contentDescription="@string/messages_s"
+            android:src="@drawable/messages_selector" />
+
+        <ImageButton
+            android:id="@+id/location"
+            android:background="@drawable/bg"
+            android:contentDescription="@string/location_s"            
+            android:src="@drawable/location_selector" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/attendees_s" />
+
+        <TextView
+            android:id="@+id/TextView014"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/messages_s" />
+
+        <TextView
+            android:id="@+id/TextView024"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/location_s" />
+
+    </TableRow>    
+    
+
+</TableLayout>

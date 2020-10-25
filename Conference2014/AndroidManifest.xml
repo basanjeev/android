@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.redirectme.apps"
+    android:versionCode="2"
+    android:versionName="1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:description="@string/app_name"
+        android:icon="@drawable/tizenlogo"
+        android:label="@string/app_name"
+        android:logo="@drawable/tizenlogo"
+        android:theme="@style/AppTheme" >
+        
+        <!-- Splash screen -->
+        
+        <activity
+            android:name="net.redirectme.apps.SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            
+            <intent-filter>
+                
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            
+            </intent-filter>
+        
+        </activity>
+        <activity
+            android:name="net.redirectme.apps.MainActivity"
+            android:label="@string/app_name" >
+
+            <!--
+			<meta-data
+                android:name="android.app.default_searchable"
+                android:value=".SearchResultsActivity" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name="net.redirectme.apps.SessionDBActivity"
+            android:label="@string/db_test"
+            android:parentActivityName="net.redirectme.apps.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="net.redirectme.apps.MainActivity" />
+        </activity>
+        <activity
+            android:name="net.redirectme.apps.SearchResultsActivity"
+            android:parentActivityName="net.redirectme.apps.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@layout/searchable" />
+        </activity>
+        <activity android:name="net.redirectme.apps.PrefsActivity" >
+        </activity>
+        <activity 
+            android:exported="true"
+            android:name="net.redirectme.apps.SessionDetailActivity" >
+        </activity>
+ 
+		<receiver android:name="net.redirectme.apps.SessionNotifyReceiver" >
+            <intent-filter>
+                <action android:name="net.redirectme.apps.SESSION_NOTIFY" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

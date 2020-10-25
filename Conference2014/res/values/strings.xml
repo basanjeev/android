@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TDC2014</string>
+    <string name="settings_s">Settings</string>
+    <string name="search_s">Everything About TDC2014</string>
+    <string name="schedule_s">Conference\nSchedule</string>
+    <string name="myschedule_s">My Schedule</string>
+    <string name="current_s">Ongoing\nSessions</string>
+    <string name="attendees_s">Attendees</string>
+    <string name="messages_s">Messaging</string>
+    <string name="location_s">Venue\nInfo</string>
+    <string name="internetna">No Internet Connection. Using Cache.</string>
+    <string name="url_schedule">https://www.tizen.org/events/tizen-developer-conference/2014/conference-schedule</string>
+    <string name="url_ecosystem">https://www.tizen.org/forum/42</string>
+    <string name="url_general">https://www.tizen.org/forum/43</string>
+    <string name="url_iot">https://www.tizen.org/forum/44</string>
+    <string name="url_keynote">https://www.tizen.org/forum/30</string>
+    <string name="url_techshowcase">https://www.tizen.org/conference-session-track/tech-showcase</string>
+    <string name="url_tutorials">https://www.tizen.org/forum/45</string>
+    <string name="url_tv">https://www.tizen.org/forum/46</string>
+    <string name="url_wearable">https://www.tizen.org/forum/47</string>
+    <string name="url_appdev">https://www.tizen.org/forum/20</string>
+    <string name="url_platformdev">https://www.tizen.org/forum/21</string>
+    <string name="url_native_prog">https://www.tizen.org/forum/22</string>
+    <string name="url_power_perf">https://www.tizen.org/forum/25</string>
+    <string name="url_ivi">https://www.tizen.org/forum/28</string>
+    <string name="url_security">https://www.tizen.org/forum/29</string>
+    <string name="url_games">https://www.tizen.org/forum/27</string>
+    <string name="url_porting">https://www.tizen.org/forum/26</string>
+    <string name="url_webkit">https://www.tizen.org/forum/23</string>
+    <string name="url_other">https://www.tizen.org/forum/24</string>
+    <string name="db_test">DB Test Activity</string>
+    <string name="session_alert">Alert Settings</string>
+    <string name="session_start_alert">Session Start Alert.</string>
+    <string name="session_start_alert_summary">Alert when your session starts.</string>
+    <string name="session_close_alert">Session Close Alert.</string>
+    <string name="session_close_alert_summary">Alert when your session ends.</string>
+    <string name="gear_sync">Gear Settings</string>
+    <string name="gear_sync_alert">Alerts on Gear</string>
+    <string name="gear_sync_alert_summary">Send alerts to gear device if paired.</string>
+    <string name="nastring">N/A.</string>
+    <string name="service_name">TDC2014NotificationService</string>
+</resources>
